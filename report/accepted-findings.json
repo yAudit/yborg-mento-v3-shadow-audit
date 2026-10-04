@@ -1,0 +1,61 @@
+{
+  "competition": {
+    "name": "Mento V3",
+    "platform": "Cantina",
+    "repository_id": "fe8e03b1-f8db-4698-8a21-44b3a862e434",
+    "results_url": "https://cantina.review/mentoc7a87d",
+    "high_count": 0,
+    "medium_count": 7
+  },
+  "findings": [
+    {
+      "id": 706,
+      "title": "LPs can sandwich rebalancing to avoid losing value due to rebalance incentives",
+      "severity": "medium",
+      "repository": "mento-core",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/706"
+    },
+    {
+      "id": 642,
+      "title": "Hardcoded limit for lpFee+protocolFee to 100 bps is not compatible with data feed with threshold > 1%",
+      "severity": "medium",
+      "repository": "mento-core",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/642"
+    },
+    {
+      "id": 593,
+      "title": "OracleAdapter doesn't verify that the returned median price timestamp is not stale",
+      "severity": "medium",
+      "repository": "mento-core",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/593"
+    },
+    {
+      "id": 586,
+      "title": "Trading limits incorrectly include fees",
+      "severity": "medium",
+      "repository": "mento-core",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/586"
+    },
+    {
+      "id": 448,
+      "title": "StabilityPool proxy leaves accumulator P zero and bricks deposits",
+      "severity": "medium",
+      "repository": "bold",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/448"
+    },
+    {
+      "id": 224,
+      "title": "Rebalancing DoS via Dust Donation",
+      "severity": "medium",
+      "repository": "mento-core",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/224"
+    },
+    {
+      "id": 213,
+      "title": "Issues With MINIMUM_LIQUIDITY Handling",
+      "severity": "medium",
+      "repository": "mento-core",
+      "url": "https://cantina.xyz/code/fe8e03b1-f8db-4698-8a21-44b3a862e434/findings/213"
+    }
+  ]
+}
