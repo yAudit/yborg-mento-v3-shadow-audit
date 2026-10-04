@@ -21,7 +21,7 @@ The accepted result set contains **seven Medium-severity findings and zero High-
 Both codebases are pinned Git submodules. Clone recursively so the exact contest sources and their pinned dependencies are checked out:
 
 ```sh
-git clone --recurse-submodules https://github.com/zerocoolailabs/yborg-mento-v3-shadow-audit.git
+git clone --recurse-submodules https://github.com/yAudit/yborg-mento-v3-shadow-audit.git
 cd yborg-mento-v3-shadow-audit
 ```
 
