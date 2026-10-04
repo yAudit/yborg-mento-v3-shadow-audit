@@ -1,0 +1,6 @@
+[submodule "sources/mento-core"]
+	path = sources/mento-core
+	url = https://github.com/mento-protocol/mento-core.git
+[submodule "sources/bold"]
+	path = sources/bold
+	url = https://github.com/mento-protocol/bold.git
